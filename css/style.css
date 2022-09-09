@@ -85,9 +85,12 @@ header div a{
     color: #ffa7ab;
 }
 
-/* footer {
-
-} */ 
+footer {
+    position: relative;
+    height: 500px;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    margin-top: 10em;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -252,6 +255,29 @@ input[type="checkbox"]:checked + .title + .content ul {
     opacity: 1;
 }
 
+/******************************************
+/* FOOTER WAVE PATTERN
+/*******************************************/
+.custom-shape-divider-top-1662740939 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1662740939 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1662740939 .shape-fill {
+    fill: #ffffff;
+}
 /******************************************
 /* MEDIA QUERIES
 /*******************************************/
