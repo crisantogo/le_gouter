@@ -90,8 +90,37 @@ footer {
     height: 500px;
     background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
     margin-top: 10em;
+    display: flex;
+    color: #313131;
 }
 
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0 0 40px;
+}
+
+.contact-us{
+    font-family: 'Angella-White', sans-serif;
+    font-size: 3em;
+}
+
+.span-text{
+    font-family: 'Quicksand';
+    padding-top: .75em;
+}
+
+.copyright-text {
+    align-self: flex-end;
+    margin: 0 auto;
+    font-size: .85em;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+.fa-phone,.fa-envelope{
+    padding-right: 15px;
+     
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
