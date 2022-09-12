@@ -34,6 +34,16 @@
 html{
     scroll-behavior: smooth;
 }
+
+/******************************************
+/* HAMBURGER MENU STYLES
+/*******************************************/
+.menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -269,27 +279,27 @@ label {
     font-family: 'Quicksand', sans-serif;
 }
 
-input[type="checkbox"] {
+.package-checkbox{
     display: none;
 }
 
-input[type="checkbox"]:checked + .title {
+.package-checkbox:checked + .title {
     background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 
-input[type="checkbox"]:checked + .title + .content {
+.package-checkbox:checked + .title + .content {
     max-height: 850px;
 }
 
-input[type="checkbox"]:checked + .title + .content p {
+.package-checkbox:checked + .title + .content p {
     transform:scale(1);
     opacity: 1;
 }
-input[type="checkbox"]:checked + .title + .content span {
+.package-checkbox:checked + .title + .content span {
     transform:scale(1);
     opacity: 1;
 }
-input[type="checkbox"]:checked + .title + .content ul {
+.package-checkbox:checked + .title + .content ul {
     transform:scale(1);
     opacity: 1;
 }
