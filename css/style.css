@@ -31,7 +31,9 @@
 
 } */
 
-
+html{
+    scroll-behavior: smooth;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -117,7 +119,15 @@ footer {
     font-family: 'Quicksand', sans-serif;  
 }
 
-.fa-phone,.fa-envelope{
+.social-media-contact{
+    margin-top: 2em;
+}
+
+.social-media-contact a{
+    color: #313131;
+}
+
+.fa-phone,.fa-envelope, .fa-location-dot, .social-media-contact i {
     padding-right: 15px;
      
 }
@@ -323,5 +333,11 @@ input[type="checkbox"]:checked + .title + .content ul {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .page-links a{
+        visibility: hidden;
     }
 }
