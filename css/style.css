@@ -511,3 +511,9 @@ label {
         visibility: visible;
     }
 }
+
+@media only screen and (max-device-width: 1200px) {
+    .welcome {
+      background-attachment: scroll;
+    }
+  }
