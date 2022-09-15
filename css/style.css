@@ -287,12 +287,15 @@ footer {
 /*******************************************/
 
 .welcome{
-    min-height: 700px;
+    min-height: 174.6vh;
     background-image: url("../assets/DSC06919.jpeg"); 
     background-repeat: no-repeat; 
     background-position: center;
     background-attachment:fixed;   
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /* .about-us{
