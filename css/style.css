@@ -286,22 +286,10 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-.welcome{
-    min-height: 174.6vh;
-    background-image: url("../assets/DSC06919.jpeg"); 
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment:fixed;   
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
 }
-
-/* .about-us{
-    height: 400px;
-    border: #313131 1px solid;
-} */
 
 .about-us-head{
     text-align: center;
@@ -511,9 +499,3 @@ label {
         visibility: visible;
     }
 }
-
-@media only screen and (max-device-width: 1200px) {
-    .welcome {
-      background-attachment: scroll;
-    }
-  }
